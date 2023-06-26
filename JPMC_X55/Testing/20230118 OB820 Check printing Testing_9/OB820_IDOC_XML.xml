@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PEXR2002>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <TABNAM>EDI_DC40</TABNAM>
+            <MANDT>100</MANDT>
+            <DOCNUM>0000000080348822</DOCNUM>
+            <DOCREL>750</DOCREL>
+            <STATUS>30</STATUS>
+            <DIRECT>1</DIRECT>
+            <OUTMOD>4</OUTMOD>
+            <IDOCTYP>PEXR2002</IDOCTYP>
+            <MESTYP>PAYEXT</MESTYP>
+            <SNDPOR>SAPI55</SNDPOR>
+            <SNDPRT>LS</SNDPRT>
+            <SNDPRN>I55CLNT100</SNDPRN>
+            <RCVPOR>A000000009</RCVPOR>
+            <RCVPRT>B</RCVPRT>
+            <RCVPRN>JPMCUS</RCVPRN>
+            <CREDAT>20230117</CREDAT>
+            <CRETIM>121431</CRETIM>
+            <SERIAL>20230117121431</SERIAL>
+        </EDI_DC40>
+        <E1IDKU1 SEGMENT="1">
+            <BGMTYP>PEX</BGMTYP>
+            <BGMNAME>EXTENDED PAYMENT ORDER</BGMNAME>
+            <BGMREF>2000380421</BGMREF>
+            <BGMLEV>ORG</BGMLEV>
+            <BGMACC>001</BGMACC>
+        </E1IDKU1>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>011</IDDAT>
+            <DATUM>20230117</DATUM>
+            <UZEIT>121431</UZEIT>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>028</IDDAT>
+            <DATUM>20230117</DATUM>
+        </E1EDK03>
+        <E1EDK03 SEGMENT="1">
+            <IDDAT>017</IDDAT>
+            <DATUM>20230117</DATUM>
+        </E1EDK03>
+        <E1EDK02 SEGMENT="1">
+            <QUALF>022</QUALF>
+            <BELNR>2000380421</BELNR>
+        </E1EDK02>
+        <E1EDK12 SEGMENT="1">
+            <QUALF>026</QUALF>
+            <BELNR>600122</BELNR>
+        </E1EDK12>
+        <E1IDKU2 SEGMENT="1">
+            <BUSFUN>001</BUSFUN>
+            <BUSGEO>DO</BUSGEO>
+            <BUSZFO>001</BUSZFO>
+        </E1IDKU2>
+        <E1IDKU3 SEGMENT="1">
+            <PAIRZAWE>C</PAIRZAWE>
+            <PAYRUNCC>1000</PAYRUNCC>
+            <PAYRUNID>1000C</PAYRUNID>
+            <PAYRUNDT>20230117</PAYRUNDT>
+            <RELNUM>000001149924</RELNUM>
+        </E1IDKU3>
+        <E1IDKU5 SEGMENT="1">
+            <MOAQUAL>002</MOAQUAL>
+            <MOABETR>300.00</MOABETR>
+            <CUXWAERZ>USD</CUXWAERZ>
+        </E1IDKU5>
+        <E1IDB02 SEGMENT="1">
+            <FIIQUALI>BA</FIIQUALI>
+            <FIIBKENN>071923226</FIIBKENN>
+            <FIIBKCDE>003</FIIBKCDE>
+            <FIIBKNAM>JP MORGAN CHASE BANK</FIIBKNAM>
+            <FIIBKORT>CHICAGO</FIIBKORT>
+            <FIIBLAND>US</FIIBLAND>
+            <FIIKONTO>921259958</FIIKONTO>
+            <FIIKNAME>APP PHARMA</FIIKNAME>
+            <FIIKNAM2>SCHAUMBURG, IL 60173</FIIKNAM2>
+            <FIIKWAER>USD</FIIKWAER>
+        </E1IDB02>
+        <E1IDB02 SEGMENT="1">
+            <FIIQUALI>BB</FIIQUALI>
+            <FIIKNAME>COMCAST HOLDINGS CORPORATION</FIIKNAME>
+        </E1IDB02>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>AG</PARVW>
+            <NAME1>FRESENIUS KABI USA, LLC</NAME1>
+            <STRAS>THREE CORPORATE DRIVE</STRAS>
+            <ORT01>LAKE ZURICH</ORT01>
+            <PSTLZ>60047</PSTLZ>
+            <LAND1>US</LAND1>
+            <TELF1>847-550-2300</TELF1>
+            <SPRAS>E</SPRAS>
+            <ORT02>LAKE</ORT02>
+            <REGIO>IL</REGIO>
+            <ISOAL>US</ISOAL>
+        </E1EDKA1>
+        <E1EDKA1 SEGMENT="1">
+            <PARVW>BE</PARVW>
+            <PARTN>0099126707</PARTN>
+            <NAME1>COMCAST HOLDINGS CORPORATION</NAME1>
+            <NAME2>COMCAST CABLE COMMUNICATIONS MANAGE</NAME2>
+            <NAME3>LLC</NAME3>
+            <STRAS>ONE COMCAST CENTER 32 FLOOR</STRAS>
+            <ORT01>PHILADELPHIA</ORT01>
+            <PSTLZ>19103</PSTLZ>
+            <LAND1>US</LAND1>
+            <ORT02>PHILADELPHIA</ORT02>
+            <REGIO>PA</REGIO>
+            <ISOAL>US</ISOAL>
+            <KNREF>V</KNREF>
+            <SPRAS_ISO>EN</SPRAS_ISO>
+        </E1EDKA1>
+        <E1IDPU1 SEGMENT="1">
+            <DOCNAME>INV</DOCNAME>
+            <DOCNUMMR>TESTHQ1</DOCNUMMR>
+            <DOCDATUM>20230101</DOCDATUM>
+            <E1IDPU5 SEGMENT="1">
+                <MOAQUAL>004</MOAQUAL>
+                <MOABETR>300.00</MOABETR>
+                <CUXWAERZ>USD</CUXWAERZ>
+            </E1IDPU5>
+            <E1IDPU5 SEGMENT="1">
+                <MOAQUAL>003</MOAQUAL>
+                <MOABETR>0.00</MOABETR>
+                <CUXWAERZ>USD</CUXWAERZ>
+            </E1IDPU5>
+            <E1IDPU5 SEGMENT="1">
+                <MOAQUAL>005</MOAQUAL>
+                <MOABETR>0.00</MOABETR>
+                <CUXWAERZ>USD</CUXWAERZ>
+            </E1IDPU5>
+            <E1IDPU5 SEGMENT="1">
+                <MOAQUAL>006</MOAQUAL>
+                <MOABETR>300.00</MOABETR>
+                <CUXWAERZ>USD</CUXWAERZ>
+            </E1IDPU5>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>016</IDDAT>
+                <DATUM>20230101</DATUM>
+            </E1EDP03>
+            <E1EDP03 SEGMENT="1">
+                <IDDAT>015</IDDAT>
+                <DATUM>20230106</DATUM>
+            </E1EDP03>
+            <E1EDP02 SEGMENT="1">
+                <QUALF>009</QUALF>
+                <BELNR>TESTHQ1</BELNR>
+            </E1EDP02>
+            <E1EDP02 SEGMENT="1">
+                <QUALF>071</QUALF>
+                <BELNR>HQ1</BELNR>
+            </E1EDP02>
+            <E1EDP02 SEGMENT="1">
+                <QUALF>070</QUALF>
+                <BELNR>TEST TEXT 5678</BELNR>
+            </E1EDP02>
+            <E1EDP02 SEGMENT="1">
+                <QUALF>010</QUALF>
+                <BELNR>1900295598</BELNR>
+            </E1EDP02>
+        </E1IDPU1>
+        <E1IDLU5 SEGMENT="1">
+            <MOAQUAL>002</MOAQUAL>
+            <MOABETR>300.00</MOABETR>
+            <CUXWAERZ>USD</CUXWAERZ>
+        </E1IDLU5>
+        <E1IDLU5 SEGMENT="1">
+            <MOAQUAL>003</MOAQUAL>
+            <MOABETR>0.00</MOABETR>
+            <CUXWAERZ>USD</CUXWAERZ>
+        </E1IDLU5>
+    </IDOC>
+</PEXR2002>

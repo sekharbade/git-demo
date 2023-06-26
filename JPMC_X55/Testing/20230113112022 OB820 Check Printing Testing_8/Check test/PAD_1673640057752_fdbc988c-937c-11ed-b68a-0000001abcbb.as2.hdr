@@ -1,0 +1,27 @@
+AS2 Message from Fri Jan 13 21:00:57 CET 2023
+URL: 10.243.66.14
+
+date: Fri, 13 Jan 2023 15:00:55 -0500 (EST)
+remoteaddr: 10.243.66.14
+content-length: 3023
+x-forwarded-proto: https
+as2-version: 1.2
+FileName: FRKCDL.PSOURCE.824B.1240271.20230113150054138
+sap-web-dispatcher: version=7.85.0
+x-forwarded-for: 159.53.110.146, 10.174.74.171
+ediint-features: multiple-attachments
+as2-from: JPMC
+ssl_cipher_suite: c02f
+accept: image/gif, */*
+content-disposition: attachment; filename=FRKCDL.PSOURCE.824B.1240271.20230113150054138
+ssl_cipher_usekeysize: 128
+requesturl: https://qaspo3.fresenius.de:443/AS2/JPMC/KABI_NA
+host: qaspo3.fresenius.de:443
+message-id: <257918017.8291673640055074.JavaMail.wmh2h@iaasn00465539.nane.jpmchase.net>
+content-type: application/pkcs7-mime; name=smime.p7m;    smime-type=enveloped-data
+disposition-notification-to: JPMC
+as2-to: FreseniusAS2TEST
+connection: close
+disposition-notification-options: signed-receipt-protocol=optional, pkcs7-signature; signed-receipt-micalg=optional, sha1
+clientprotocol: https
+user-agent: Mozilla/4.0 [en] (WinNT; I)

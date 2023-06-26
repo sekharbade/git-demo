@@ -1,0 +1,29 @@
+AS2 Message from Fri May 12 17:39:37 CEST 2023
+URL: 10.243.66.14
+
+date: Fri, 12 May 2023 11:39:35 -0400 (EDT)
+content-length: 2772
+as2-version: 1.2
+sap-web-dispatcher: version=7.85.0
+ediint-features: multiple-attachments
+tracestate: 2ca8223d-5f0e0674@dt=fw4;2e;a1cd7ef7;b7d6e2;0;0;0;27a;ce30;2h01;3ha1cd7ef7;4hb7d6e2;5h01;7hb3e2d60061ea2e24
+content-disposition: attachment; filename=FRKCDL.PSOURCE.997B.2619920.20230512113934678
+host: qaspo3.fresenius.de:443
+message-id: <361761840.10631683905975395.JavaMail.wmh2h@iaasn00465536.nane.jpmchase.net>
+content-type: application/pkcs7-mime; name=smime.p7m;    smime-type=enveloped-data
+disposition-notification-to: JPMC
+as2-to: FreseniusAS2TEST
+connection: close
+disposition-notification-options: signed-receipt-protocol=optional, pkcs7-signature; signed-receipt-micalg=optional, sha1
+clientprotocol: https
+remoteaddr: 10.243.66.14
+x-forwarded-proto: https
+x-forwarded-for: 159.53.110.145, 10.174.74.170
+as2-from: JPMC
+ssl_cipher_suite: c02f
+accept: image/gif, */*
+ssl_cipher_usekeysize: 128
+requesturl: https://qaspo3.fresenius.de:443/AS2/JPMC/KABI_NA
+traceparent: 00-3c67f4298d218c4443f1e5f3258c59dc-b3e2d60061ea2e24-01
+x-dynatrace: FW4;1594754676;46;-1580368137;12048098;0;749216317;634;c59e;2h01;3ha1cd7ef7;4hb7d6e2;5h01;6h3c67f4298d218c4443f1e5f3258c59dc;7hb3e2d60061ea2e24
+user-agent: Mozilla/4.0 [en] (WinNT; I)
